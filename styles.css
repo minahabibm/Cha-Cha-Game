@@ -1,0 +1,46 @@
+body {
+  background-image: url("IMG_0221.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: black;/*#5761FE;#f1f1f1;*/
+    position: absolute;
+	  left: 50%;
+	  top: 50%;
+	  margin-left: -400px; /* This is half the width */
+	  margin-top: -450px; /* This is half the height */
+}
+#introduction {
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  left: 20%;
+  top: 30%;
+}
+#line2{
+  position: absolute;
+  left: 15%;
+  top: 50%;
+}
+#countdown{
+  color: blue;
+  font-size: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left:-100px; /* This is half the width */
+  margin-top: -400px; /* This is half the height */
+}
+#startButton{
+  color: black;
+  font-size: 25px;
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -100px; /* This is half the width */
+  margin-top: 250px; /* This is half the height */
+}
